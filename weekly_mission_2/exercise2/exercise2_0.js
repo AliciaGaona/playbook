@@ -64,6 +64,10 @@ const explorers = [
 
    console.log("Ejercicio2, punto1")
    explorers.forEach(explorer=> console.log(explorer.name))
+
    console.log("Ejercicio2, punto2")
    explorers.forEach(item=> console.log(item.stack))
 
+   console.log("Ejercicio2, punto3")
+  const miListaExplorers_staks= explorers.map(miListaDeExplorers => miListaDeExplorers.stack)
+  console.log(miListaExplorers_staks)
