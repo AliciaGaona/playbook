@@ -60,3 +60,7 @@ const explorers = [
    ]
    
    console.log(explorers)
+
+   console.log("Ejercicio3, punto1")
+
+   explorers.forEach(explorer=> console.log(explorer.name))
