@@ -58,9 +58,12 @@ const explorers = [
       }
     }
    ]
-   
+
    console.log(explorers)
 
-   console.log("Ejercicio3, punto1")
 
+   console.log("Ejercicio2, punto1")
    explorers.forEach(explorer=> console.log(explorer.name))
+   console.log("Ejercicio2, punto2")
+   explorers.forEach(item=> console.log(item.stack))
+
