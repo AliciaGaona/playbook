@@ -69,5 +69,9 @@ const explorers = [
    explorers.forEach(item=> console.log(item.stack))
 
    console.log("Ejercicio2, punto3")
-  const miListaExplorers_staks= explorers.map(miListaDeExplorers => miListaDeExplorers.stack)
-  console.log(miListaExplorers_staks)
+   const miListaExplorers_staks= explorers.map(miListaDeExplorers => miListaDeExplorers.stack)
+   console.log(miListaExplorers_staks)
+
+   console.log("Ejercicio2, punto4")
+   const miListaExplorers_staksConJs= explorers.filter(miListaDeExplorers => miListaDeExplorers.stack.includes("js"))
+   console.log(miListaExplorers_staksConJs)
