@@ -18,5 +18,21 @@ const repo = {
    console.log("Nombre del repo:" + repo.name)
    console.log("Issues totales: " + repo.getTotalIssues())
    console.log(repo.getGeneralInfo())
-   console.log("Ejercicio 1")
+   console.log("Ejercicio 1 Repo")
    
+   const Issue ={
+    title:"Issue one",
+    repositoryNameAssociated: "AAA",
+    status: "en revisión",
+    numberOfComments: "10",
+    labels:"hola",
+    author: "Alicia",
+    dateCreated: "22/04/2022",
+    lastUpdated: "22/04/2022",
+    getGeneralInfo: function(){
+      return  `Tu Issue se llama ${this.title} y fue creado por ${this.author}, en la fecha ${this.dateCreated} `
+    }
+   }
+
+   console.log("El nombre del autor es:" +Issue.author + "y el titulo" + Issue.title)
+   console.log(Issue.getGeneralInfo)
