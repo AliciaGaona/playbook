@@ -22,7 +22,7 @@ const explorers = [
     {
       name: "Explorer 2",
       exercises_completed: 9,
-      city: "Veracruz",
+      city: "CDMX",
       rate: 50,
       stack: [
         "js"
@@ -75,3 +75,7 @@ const explorers = [
    console.log("Ejercicio2, punto4")
    const miListaExplorers_staksConJs= explorers.filter(miListaDeExplorers => miListaDeExplorers.stack.includes("js"))
    console.log(miListaExplorers_staksConJs)
+
+   console.log("Ejercicio2, punto5")
+   const explorerCDMX= explorers.find(miListaDeExplorers => miListaDeExplorers.city=="CDMX")
+   console.log(explorerCDMX)
