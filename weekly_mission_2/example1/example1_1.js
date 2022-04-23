@@ -34,5 +34,24 @@ const repo = {
     }
    }
 
-   console.log("El nombre del autor es:" +Issue.author + "y el titulo" + Issue.title)
-   console.log(Issue.getGeneralInfo)
+   console.log("El nombre del autor es: " + Issue.author + " y el titulo" + Issue.title)
+   console.log(Issue.getGeneralInfo())
+
+   const PullRequest={
+    title:"PullRequest", 
+    branchName:"main",
+    dateCreated:"22/04/2022",
+    status:"en revisión",
+    repositoryNameAssociated:"Reposirotio",
+    getStatus: function(){
+      return `Status: ${this.status} `
+    },
+    getTitleAndAutor: function(){
+      return `Title: ${this.title} and autor ${this.branchName}`
+    }
+   }
+
+   console.log(PullRequest.getStatus())
+   console.log(PullRequest.getTitleAndAutor())
+
+ 
