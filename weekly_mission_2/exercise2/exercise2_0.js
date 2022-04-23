@@ -79,3 +79,7 @@ const explorers = [
    console.log("Ejercicio2, punto5")
    const explorerCDMX= explorers.find(miListaDeExplorers => miListaDeExplorers.city=="CDMX")
    console.log(explorerCDMX)
+
+   console.log("Ejercicio2, punto6")
+   const all_exercises_completed= explorers.reduce((a, explorers) => a + explorers.exercises_completed, 0)
+   console.log(all_exercises_completed)
