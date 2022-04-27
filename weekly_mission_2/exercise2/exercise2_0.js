@@ -83,3 +83,18 @@ const explorers = [
    console.log("Ejercicio2, punto6")
    const all_exercises_completed= explorers.reduce((a, explorers) => a + explorers.exercises_completed, 0)
    console.log(all_exercises_completed)
+
+  console.log("Ejercicio2, punto7")
+  //creo una nueva lista usando map de los exercisesFinished
+  const exercisesFinished_true_existsm= explorers.map(miListaDeExplorers => miListaDeExplorers.missions.frontend.exercisesFinished)
+  //console.log(exercisesFinished_true_existsm)
+  //resultado =>> [ true, false, false ]
+  //sobre esa nueva lista aplico el some para ver si al gun explorer tiene la propiedad exercisesFinished como true
+   const exercisesFinished_true_exists= exercisesFinished_true_existsm.some((s) => s==true)  
+   console.log(exercisesFinished_true_exists)
+
+   console.log("Ejercicio2, punto8")
+   const isFinished_onboarding_exists= explorers.map(miListaIsFinished => miListaIsFinished.missions.onboarding.isFinished)
+   const isFinished_onboarding_exists_true = isFinished_onboarding_exists.every((s)=>s==true)
+   console.log(isFinished_onboarding_exists_true)
+   //every()- si todos cumplen regresa true, de lo contrario false
