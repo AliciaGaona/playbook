@@ -7,14 +7,27 @@ const Twiter ={
         bio: "..."
       },
       trending_topic:"...",
-      hashtag:"#hi"
+      hashtag:"#hi",
+      noticias:""
 }
-const Facebbok ={
-    user: "Alicia",
+const Facebook ={
+    biografia: {
+        user: "Alicia",
+        username: "Alicia Gaona Velázquez",
+        bio: "...",
+        fechaNacimiento:"10/03/1995",
+        estado: "happy"
+      },
     post:"...",
-    biography:"AliciaGaona"
+    biography:"AliciaGaona",
+    images:"", 
+    amigos:["Woopa", "Woopita"],
 }
 const Uber={
     profile:"Alicia",
-    travel:"Casa de Toño"
+    travelDestino:"Casa de Toño",
+    travelInicio:"Casa de Toño",
+    precio:"",
+    formaDePago:"efectivo",
+    correo:"soycorreo@gmail.com"
 }
