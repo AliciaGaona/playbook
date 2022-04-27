@@ -61,7 +61,6 @@ const explorers = [
 
    console.log(explorers)
 
-
    console.log("Ejercicio2, punto1")
    explorers.forEach(explorer=> console.log(explorer.name))
 
@@ -97,4 +96,4 @@ const explorers = [
    const isFinished_onboarding_exists= explorers.map(miListaIsFinished => miListaIsFinished.missions.onboarding.isFinished)
    const isFinished_onboarding_exists_true = isFinished_onboarding_exists.every((s)=>s==true)
    console.log(isFinished_onboarding_exists_true)
-   //every()- si todos cumplen regresa true, de lo contrario false
+  
