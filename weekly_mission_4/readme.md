@@ -10,4 +10,9 @@ Proyectos desarrollados en la semana 4:
 |`PR`|2|[Link al repo](https://github.com/AliciaGaona/PR)|
 |`Code Challenge`|3, 4, 5|[Link al repo](https://github.com/AliciaGaona/Code_Challenge)|
 |`Trello`|6|[Link al repo](https://github.com/AliciaGaona/Trello)|
-|`Trello JS Fork`|7|[Link al repo](https://github.com/AliciaGaona/TrelloJS_Fork)|
+|`Trello JS Fork-Ejercicio`|7|[Link al repo](https://github.com/AliciaGaona/TrelloJS_Fork)|
+|`Trello JS Fork`|7|[Link al repo](https://github.com/AliciaGaona/TrelloJS_Fork-1)|
+
+
+
+
