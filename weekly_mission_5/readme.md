@@ -8,3 +8,7 @@ Proyectos desarrollados en la semana 5:
 |`SQL`|2|[Link al repo]()|
 |` Prisma DB`|3|[Link al repo]()|
 |`Cliente Servidor`|4|[Link al repo]()|
+
+
+
+[Manual de bot Telegram](https://core.telegram.org/bots)
